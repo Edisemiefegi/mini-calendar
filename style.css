@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg , blue, purple);
+}
+.container{
+    width: 200px;
+    display: flex;
+    height: 200px;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.week{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+    /* padding: 20px; */
+    width: 60%;
+    background-color: white;
+}
+#date{
+    font-size: 90px;
+}
+.year{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    width: 40%;
+    background-color: orangered;
+}
